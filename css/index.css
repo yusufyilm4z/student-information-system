@@ -1,0 +1,644 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  width: 100vw;
+}
+
+.body-flex{
+  display: flex;
+}
+
+/*GLOBAL STYLES*/
+:root{
+  --dark-blue: hsl(217, 58%, 23%);
+  --darkish-blue: hsl(217, 57%, 33%);
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(0, 0%, 85%);
+  --box-shadow:  0 1px 8px 0 rgb(0, 0, 0, .4);
+}
+
+a ,ul{
+  text-decoration: none;
+  color: unset;
+  list-style: none;
+}
+
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, 
+cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, 
+h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, 
+ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, tfoot, 
+thead, time, tr, tt, u, ul, var {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+/*HEADER STYLING*/
+.header{
+  color: var(--white);
+  background-color: var(--dark-blue);
+}
+
+.header-page-title{
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: .1rem;
+}
+
+.header-title-and-logo-section,
+.header-navbar ul,
+.header-flex{
+  display: flex;
+  align-items: center;
+}
+
+
+.header-flex{
+  background-color: var(--dark-blue);
+  justify-content: space-between;
+  padding: .5rem 1.6rem;
+}
+
+.header-navbar ul{
+  gap: 4rem;
+}
+
+.navbar-active{
+  text-decoration: underline;
+  text-underline-offset: .2rem;
+  color: var(--light-gray);
+}
+
+.header-page-title{
+  font-size: 1.4rem;
+}
+
+.header-page-logo{
+  width: 3.2rem;
+  margin-right: .6rem;
+}
+
+/*SIDEBAR STYLING*/
+.sidebar{
+  width: 20%;
+  height: 800px;
+  background-color: var(--darkish-blue);
+  color: var(--white);
+  box-shadow: var(--box-shadow);
+}
+
+#sidebar-title{
+  margin-top: 1.6rem;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.sidebar-item-icon{
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.sidebar-item,
+.sidebar-item-dropdown-button{
+  display: flex;
+  align-items: center; 
+}
+
+.sidebar-item:hover{
+  background-color: var(--dark-blue);
+}
+
+.sidebar-item-dropdown-button{
+  flex-grow: 1;
+  padding: .4rem 0rem;
+  padding-left: 1.6rem;
+}
+
+.sidebar-item-dropdown-button:hover{
+  cursor:pointer;
+}
+
+.sidebar-item-icon{
+  width: 1rem;
+  height: 1rem;
+  margin-right: .4rem;
+}
+
+.sidebar-item-dropdown-menu-item{
+  padding-left: 2.4rem;
+  font-size: .9rem;
+}
+.sidebar-item-dropdown-menu-item:hover{
+  background-color: var(--dark-blue);
+}
+
+.dropdown-item-icon{
+  width: .8rem;
+  height: .8rem;
+}
+
+/*dropdown event part*/
+.hidden{
+  display: none;
+}
+.sidebar-item-dropdown-menu:not(.hidden) {
+  display: block;
+}
+.material-symbols-outlined:after{
+  content: '\e5cc';
+}
+.rotate{
+  transform: rotateZ(90deg);
+  transition: 400ms;
+}
+/*END*/
+
+/*MAIN PART*/
+.main{
+  width: 80%;
+}
+
+.main-top-information-container,
+.main-top-right-container{
+  display: flex;
+  justify-content: space-between;
+}
+.main-top-information-container:nth-child(3){
+  background-color: antiquewhite;
+}
+
+.account-info-container,
+#current-academic-term,
+#home-container{
+  background-color: var(--darkish-blue);
+  color: var(--white);
+  box-shadow: var(--box-shadow);
+  padding: .4rem .6rem;
+  align-items: center;
+  display: flex;
+}
+#current-academic-term{
+  margin: 1rem 0 0 1.6rem;
+  font-size: .8rem;
+}
+
+#home-container{
+  margin-top: 1rem;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+#home-icon{
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.account-info-container{
+  margin: 1rem 1.6rem 0 0;
+  font-size: .8rem;
+}
+.account-info-container:hover{
+  cursor: pointer;
+}
+
+#account-icon{
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-right: .4rem;
+}
+.account-info{
+  font-size: .8rem;
+}
+
+/*main oveview part START*/
+.main-overview-container{
+  font-size: .8rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: var(--dark-blue);
+  margin: 3.2rem 1.6rem;
+  box-shadow: var(--box-shadow);
+}
+
+.main-overview-item{
+  width: 40%;
+  box-sizing: border-box;
+  padding: .8rem;
+  margin: 1.6rem;
+  background-color: var(--darkish-blue);
+  color: var(--white);
+  box-shadow: var(--box-shadow);
+}
+
+.main-overview-item-img{
+  float: left;
+  margin-right: .8rem;
+  width: 4rem;
+}
+#graduation-icon,
+#search-icon{
+  margin: 0 1.6rem 0 .4rem;
+}
+
+.main-overview-item-further-link:hover{
+  text-decoration:underline;
+  text-underline-offset: .1rem;
+  color: var(--light-gray);
+}
+
+.item-1, .item-2{
+  order: 1;
+}
+.item-3, .item-4{
+  order: 2;
+  margin-top: 0;
+}
+/*main oveview part END*/
+
+
+/*FOOTER PART*/
+.footer{
+  background-color: var(--dark-blue);
+  color: var(--white);
+}
+
+.footer-link-container{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2.8rem 0 2.4rem 0;
+}
+.footer-copyright{
+  text-align: center;
+  padding-bottom: .8rem;
+  font-size: .8rem;
+}
+
+/*1st breakpoint for small fixes*/
+@media (max-width: 1080px) {
+  /*sidebar fixes*/
+  .sidebar-item-dropdown-menu-item{
+    font-size: .8rem;
+  }
+  
+  .dropdown-item-icon{
+    width: .6rem;
+    height: .6rem;
+  }
+
+  /*main part fixes*/
+  .main-overview-container{
+    margin: 3.2rem 1rem;
+  }
+  
+  .main-overview-item{
+    padding: .6rem;
+    margin: 1rem;
+    font-size: .7rem;
+  }
+
+  #current-academic-term{
+    margin: 1rem 0 0 1.2rem;
+    font-size: .7rem;
+  }
+
+  .account-info-container{
+    margin: 1rem 1.2rem 0 0;
+    font-size: .7rem;
+  }
+}
+
+/*2nd and big breakpoint whole page fixing*/
+@media (max-width: 840px) {
+  /*header part fixes*/
+  .header-flex{
+    padding: .5rem 1.2rem;
+  }
+  .header-navbar ul{
+    gap: 2rem;
+    font-size: .8rem;
+  }
+  .header-page-title{
+    font-size: 1.2rem;
+  }
+  
+  .header-page-logo{
+    width: 2.4rem;
+  }
+
+  /*sidebar part fixes*/
+  #sidebar-title{
+    font-size: 1rem;
+  }
+  .sidebar-item-icon{
+    width: .8rem;
+    height: .8rem;
+  }
+
+  .sidebar-item-dropdown-button{
+    padding-left: 1rem;
+    font-size: .8rem;
+  }
+
+  .sidebar-item-dropdown-menu-item{
+    padding-left: 1.8rem;
+    font-size: .7rem;
+  }
+  
+  .dropdown-item-icon{
+    width: .5rem;
+    height: .5rem;
+  }
+
+  /*Main part fixes*/
+  .main-overview-container{
+    margin: 3rem 1rem;
+  }
+  
+  .main-overview-item{
+    padding: .6rem;
+    margin: .8rem;
+    font-size: .6rem;
+  }
+  .main-overview-item-img{
+    margin-right: .4rem;
+    width: 3rem;
+  }
+  #current-academic-term{
+    margin: 1rem 0 0 1rem;
+    font-size: .6rem;
+  }
+  .account-info-container{
+    margin: 1rem 1rem 0 0;
+  }
+  .account-info p {
+    font-size: .6rem;
+  }
+  #account-icon,
+  #home-icon{
+    width: 1.6rem;
+    height: 1.6rem;
+  }
+
+  /*footer part fixes*/
+  .footer-link-container{
+    padding: 2rem 0 1.6rem 0;
+    font-size: .8rem;
+  }
+  .footer-copyright{
+    font-size: .6rem;
+  }
+}
+
+/*3nd breakpoint small fixes*/
+@media (max-width: 700px) {
+  /*header part fixes*/
+  .header-flex{
+    padding: .4rem 1rem;
+  }
+  .header-navbar ul{
+    gap: 1.2rem;
+    font-size: .6rem;
+  }
+  .header-page-title{
+    font-size: 1rem;
+  }
+  .header-page-logo{
+    width: 1.8rem;
+  }
+  /*sidebar part fixes*/
+  #sidebar-title{
+    font-size: .8rem;
+  }
+  .sidebar-item-icon{
+    width: .6rem;
+    height: .6rem;
+  }
+  .sidebar-item-dropdown-button{
+    padding: .2rem 0;
+    padding-left: .8rem;
+    font-size: .6rem;
+  }
+
+  .sidebar-item-dropdown-menu-item{
+    padding-left: 1.2rem;
+    font-size: .6rem;
+  }
+  
+  .dropdown-item-icon{
+    width: .4rem;
+    height: .4rem;
+  }
+
+  .material-symbols-outlined:after{
+    font-size: 1.2rem;
+  }
+
+  /*Main part fixes*/
+  .main-overview-container{
+    margin: 2.4rem .8rem;
+  }
+  
+  .main-overview-item{
+    padding: .4rem;
+    margin: .6rem;
+    font-size: .5rem;
+  }
+  .main-overview-item-img{
+    margin-right: .4rem;
+    width: 2.4rem;
+  }
+  #current-academic-term{
+    margin: 1rem 0 0 .8rem;
+    font-size: .5rem;
+  }
+  .account-info-container{
+    margin: 1rem .8rem 0 0;
+  }
+  .account-info p {
+    font-size: .5rem;
+  }
+  #account-icon,
+  #home-icon{
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+}
+
+/*1st breakpoint for mobile*/
+@media (max-width: 580px){
+  .body-flex{
+    flex-direction: column;
+  }
+  .sidebar,
+  .main{
+    width: 100%;
+  }
+
+  /*sidebar part fixes*/
+  .sidebar{
+    height:auto;
+  }
+  #sidebar-title{
+    font-size: 1.2rem;
+  }
+  .sidebar-item-icon{
+    width: 1rem;
+    height: 1rem;
+  }
+  .sidebar-item-dropdown-button{
+    padding: .2rem 0;
+    padding-left: 1.8rem;
+    font-size: .8rem;
+  }
+
+  .sidebar-item-dropdown-menu-item{
+    padding-left: 3.2rem;
+    font-size: .8rem;
+  }
+  
+  .dropdown-item-icon{
+    width: .8rem;
+    height: .8rem;
+  }
+
+  .material-symbols-outlined:after{
+    font-size: 1.2rem;
+  }
+}
+
+/*2nd breakpoint for mobile*/
+@media (max-width: 480px){
+  /*header part fixes*/
+  .header-flex{
+    padding: .6rem .8rem;
+  }
+  .header-navbar ul{
+    gap: 1rem;
+    font-size: .5rem;
+  }
+  .header-page-title{
+    font-size: .8rem;
+  }
+  .header-page-logo{
+    width: 1.4rem;
+  }
+
+  /*sidebar part fixes*/
+  #sidebar-title{
+    font-size: 1rem;
+  }
+  .sidebar-item-icon{
+    width: .8rem;
+    height: .8rem;
+  }
+  .sidebar-item-dropdown-button{
+    padding-left: 1.6rem;
+    font-size: .6rem;
+  }
+  .sidebar-item-dropdown-menu-item{
+    padding-left: 2.4rem;
+    font-size: .6rem;
+  }
+  .dropdown-item-icon{
+    width: .6rem;
+    height: .6rem;
+  }
+  .material-symbols-outlined:after{
+    font-size: 1rem;
+  }
+  
+  /*Main part fixes*/
+  .main-overview-container{
+    margin: 2rem .6rem;
+  }
+  
+  .main-overview-item{
+    width: 45%;
+    padding: .2rem;
+    margin: .4rem;
+    font-size: .4rem;
+  }
+  .main-overview-item-img{
+    margin-right: .2rem;
+    width: 2rem;
+  }
+
+  #current-academic-term{
+    margin: 1rem 0 0 .6rem;
+    font-size: .4rem;
+    padding: .6rem .4rem;
+  }
+  .account-info-container{
+    margin: 1rem .6rem 0 0;
+    padding: .2rem;
+  }
+  .account-info p {
+    font-size: .4rem;
+  }
+  #account-icon,
+  #home-icon{
+    width: 1rem;
+    height: 1rem;
+  }
+
+  /*footer part fixes*/
+  .footer-link-container{
+    padding: 1.8rem 0 1.2rem 0;
+    font-size: .6rem;
+  }
+  .footer-copyright{
+    font-size: .5rem;
+  }
+}
+
+/*3st breakpoint for mobile*/
+@media (max-width: 360px){
+  /*header part fixes*/
+  .header-flex{
+    padding: .4rem .6rem;
+  }
+  .header-navbar ul{
+    gap: .8rem;
+    font-size: .5rem;
+  }
+  .header-page-title{
+    font-size: .7rem;
+  }
+  .header-page-logo{
+    width: 1.2rem;
+  }
+
+  /*sidebar part fixes*/
+  #sidebar-title{
+    font-size: .9rem;
+  }
+
+  /*Main part fixes*/
+  .main-overview-container{
+    margin: 2rem .4rem;
+  }
+  
+  .main-overview-item{
+    padding: .1rem;
+    margin: .2rem;
+    font-size: .3rem;
+  }
+  .main-overview-item-img{
+    margin-right: .2rem;
+    width: 1.6rem;
+  }
+
+  #current-academic-term{
+    margin: 1rem 0 0 .4rem;
+  }
+  .account-info-container{
+    margin: 1rem .4rem 0 0;
+  }
+  #account-icon,
+  #home-icon{
+    width: .8rem;
+    height: .8rem;
+  }
+}

@@ -1,0 +1,158 @@
+.sidebar-height-fix{
+  width: 20%;
+  background-color: var(--darkish-blue);
+  color: var(--white);
+  box-shadow: var(--box-shadow);
+}
+
+/*MAIN PART*/
+.view-pf-container{
+  color: var(--white);
+  font-size: .8rem;
+  background-color: var(--dark-blue);
+  margin: 3.2rem 1.6rem;
+  padding: 1.6rem 2.4rem;
+  box-shadow: var(--box-shadow);
+}
+
+.view-pf-form{
+  width: 50%;
+}
+
+.view-pf-form-item{
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+
+.form-item-input {
+  width: 100%;
+  color: black;
+  height: 1.8rem;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.form-item-input,
+#pass-fail-dropdown{
+  height: 1.8rem;
+}
+
+.form-button{
+  color: var(--white);
+  background-color: var(--darkish-blue);
+  border: 0;
+  height: 1.8rem;
+  width: 50%;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 200ms;
+}
+.form-button:hover,
+.form-button:focus{
+  box-shadow: 0 0 0 2px rgba(0,0,0,.3);
+  background-color: hsl(217, 57%, 25%);
+}
+
+.student-table {
+  width: 100%;
+  margin-top: 1rem;
+  border-collapse: collapse;
+  background-color: var(--white);
+  color: black;
+}
+
+.student-table th,
+.student-table td {
+  border: 1px solid black;
+  padding: .2rem .4rem;
+  text-align: left;
+}
+
+.student-table th {
+  background-color: var(--light-gray);
+  color: black;
+}
+
+/*1st breakpoint*/
+@media (max-width: 800px) {
+  .view-pf-container{
+    font-size: .7rem;
+    margin: 2.4rem 1.2rem;
+    padding: 1.4rem 2rem;
+  }
+  .view-pf-form{
+    width: 70%;
+  }
+  .view-pf-form-item{
+    margin: 1.2rem 0;
+  }
+  .form-item-input,
+  .form-button{
+    height: 1.4rem;
+  }
+  .form-button{
+    font-size: .7rem;
+    width: 60%;
+  }
+  .student-table {
+    font-size: .7rem;
+  }
+}
+
+/*1st breakpoint mobile*/
+@media (max-width: 600px) {
+  .sidebar-height-fix{
+    width: 100%;
+  }
+  .view-pf-container{
+    text-align: center;
+    font-size: .7rem;
+    margin: 2rem 1rem;
+    padding: 1.2rem 1.6rem;
+  }
+  .view-pf-form,
+  .form-button{
+    width: 100%;
+  }
+  .view-pf-form-item{
+    margin: 1.5rem 0;
+  }
+  .form-item-input,
+  .form-button{
+    height: 1.6rem;
+  }
+  .form-button{
+    font-size: .8rem;
+  }
+  .student-table {
+    font-size: .6rem;
+  }
+}
+
+/*2nd breakpoint mobile*/
+@media (max-width: 450px) {
+  .view-pf-container{
+    font-size: .6rem;
+    margin: 1.6rem .8rem;
+    padding: 1rem 1.2rem;
+  }
+  .form-item-input,
+  .form-button{
+    height: 1.4rem;
+  }
+  .student-table {
+    font-size: .5rem;
+  }
+}
+/*3rd breakpoint mobile*/
+@media (max-width: 350px) {
+  .student-table {
+    font-size: .4rem;
+  }
+  .student-table th,
+  .student-table td {
+  border: .05px solid black;
+  padding: .1rem .2rem;
+  }
+}

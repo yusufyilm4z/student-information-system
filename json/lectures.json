@@ -1,0 +1,34 @@
+[
+  {
+    "lectureName": "MATH1852 Calculus",
+    "pointScale": 10
+  },
+  {
+    "lectureName": "CENG2001 Data Structures and Algorithms",
+    "pointScale": 7
+  },
+  {
+    "lectureName": "CENG2007 Digital Logic Design",
+    "pointScale": 10
+  },
+  {
+    "lectureName": "ISG1801 Occupational Health and Safety",
+    "pointScale": 7
+  },
+  {
+    "lectureName": "CENG3502 Dynamic Web Programming",
+    "pointScale": 10
+  },
+  {
+    "lectureName": "CENG3005 Database Management Systems",
+    "pointScale": 7
+  },
+  {
+    "lectureName": "CENG1004 Introduction to Object Oriented Programming",
+    "pointScale": 10
+  },
+  {
+    "lectureName": "CENG3545 Mobile Application Development",
+    "pointScale": 7
+  }
+]

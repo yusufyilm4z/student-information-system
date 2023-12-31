@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Metadata Section -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Courses-View All Grades</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/school-logo.png">
+
+  <!-- STYLE AND SCRIPT IMPORTS -->
+  <!-- Import main and grading-specific styles -->
+  <link rel="stylesheet" href="../css/index.css">
+  <link rel="stylesheet" href="../css/grading/viewGrade.css">
+  <!-- Import JavaScript files with deferred execution -->
+  <script src="../javascript/script.js" defer></script>
+  <script src="../javascript/viewGrade.js" defer></script>
+
+  <!-- FONT AND ICON IMPORTS -->
+  <!-- Import Google Fonts for styling -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+  <!-- Import Material Design Symbols for icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+  <!-- HEADER SECTION -->
+  <header class="header">
+    <!-- Header Flex Container -->
+    <div class="header-flex">
+      <!-- Title and Logo Section -->
+      <div class="header-title-and-logo-section">
+        <!-- School logo and title -->
+        <img class="header-page-logo" src="../assets/school-logo.png" alt="school_logo">
+        <p class="header-page-title">Arctic University</p>
+      </div>
+      <!-- Navbar Section -->
+      <div class="header-navbar-section">
+        <!-- Navigation menu -->
+        <nav class="header-navbar">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li class="navbar-active"><a href="./index.html">AUSIS</a></li>
+            <li><a href="#">Research</a></li>
+            <li><a href="#">Facilities</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT SECTION -->
+  <div class="body-flex">
+    <!-- SIDEBAR SECTION -->
+    <aside class="sidebar-height-fix">
+      <!-- Sidebar Title -->
+      <h2 id="sidebar-title">Student Information System</h2>
+
+      <!-- COURSE, STUDENT, AND GRADING DROPDOWNS -->
+      <!-- Course Dropdown -->
+      <div class="sidebar-item-container">
+        <div class="sidebar-item">
+          <!-- Course Dropdown Button -->
+          <div id="sidebar-dropdown-1" class="sidebar-item-dropdown-button">
+            <!-- Course Dropdown Icon and Label -->
+            <img class="sidebar-item-icon" src="../assets/sidebar-item-icon.png" alt="sidebar_item_icon">
+            <p class="sidebar-item-dropdown-button-label">Course</p>
+            <span class="material-symbols-outlined icon-1"></span>
+          </div>
+        </div>
+        <!-- Course Dropdown Menu -->
+        <div class="sidebar-item-dropdown-menu menu-1 hidden">
+          <!-- Course Dropdown Items -->
+          <div class="sidebar-item-dropdown-menu-item">
+            <img class="dropdown-item-icon" src="../assets/dropdown-item-icon.png" alt="dropdown_item_icon">
+            <a href="./addCourse.html">Add new course</a>
+          </div>
+          <div class="sidebar-item-dropdown-menu-item">
+            <img class="dropdown-item-icon" src="../assets/dropdown-item-icon.png" alt="dropdown_item_icon">
+            <a href="./viewCourseGrade.html">View Course Grade</a>
+          </div>
+          <div class="sidebar-item-dropdown-menu-item">
+            <img class="dropdown-item-icon" src="../assets/dropdown-item-icon.png" alt="dropdown_item_icon">
+            <a href="./courseDetails.html">Course Details</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Student Dropdown -->
+      <div class="sidebar-item-container">
+        <div class="sidebar-item">
+          <!-- Student Dropdown Button -->
+          <div id="sidebar-dropdown-2" class="sidebar-item-dropdown-button">
+            <!-- Student Dropdown Icon and Label -->
+            <img class="sidebar-item-icon" src="../assets/sidebar-item-icon.png" alt="sidebar_item_icon">
+            <p class="sidebar-item-dropdown-button-label">Student</p>
+            <span class="material-symbols-outlined icon-2"></span>
+          </div>
+        </div>
+        <!-- Student Dropdown Menu -->
+        <div class="sidebar-item-dropdown-menu menu-2 hidden">
+          <!-- Student Dropdown Items -->
+          <div class="sidebar-item-dropdown-menu-item">
+            <img class="dropdown-item-icon" src="../assets/dropdown-item-icon.png" alt="dropdown_item_icon">
+            <a href="./addStudent.html">Add New Student</a>
+          </div>
+          <div class="sidebar-item-dropdown-menu-item">
+            <img class="dropdown-item-icon" src="../assets/dropdown-item-icon.png" alt="dropdown_item_icon">
+            <a href="./manageStudent.html">Manage Students</a>
+          </div>
+          <div class="sidebar-item-dropdown-menu-item">
+            <img class="dropdown-item-icon" src="../assets/dropdown-item-icon.png" alt="dropdown_item_icon">
+            <a href="./searchStudent.html">Search Student</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Grading Dropdown -->
+      <div class="sidebar-item-container">
+        <div class="sidebar-item">
+          <!-- Grading Dropdown Button -->
+          <div id="sidebar-dropdown-3" class="sidebar-item-dropdown-button">
+            <!-- Grading Dropdown Icon and Label -->
+            <img class="sidebar-item-icon" src="../assets/sidebar-item-icon.png" alt="sidebar_item_icon">
+            <p class="sidebar-item-dropdown-button-label">Grading</p>
+            <span class="material-symbols-outlined icon-3"></span>
+          </div>
+        </div>
+        <!-- Grading Dropdown Menu -->
+        <div class="sidebar-item-dropdown-menu menu-3 hidden">
+          <!-- Grading Dropdown Items -->
+          <div class="sidebar-item-dropdown-menu-item">
+            <img class="dropdown-item-icon" src="../assets/dropdown-item-icon.png" alt="dropdown_item_icon">
+            <a href="./viewPassedAndFailed.html">View Passed&Failed</a>
+          </div>
+          <div class="sidebar-item-dropdown-menu-item">
+            <img class="dropdown-item-icon" src="../assets/dropdown-item-icon.png" alt="dropdown_item_icon">
+            <a href="./viewGPA.html">View GPA</a>
+          </div>
+          <div class="sidebar-item-dropdown-menu-item">
+            <img class="dropdown-item-icon" src="../assets/dropdown-item-icon.png" alt="dropdown_item_icon">
+            <a href="./viewGrade.html">View grade</a>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- MAIN CONTENT AREA -->
+    <main class="main">
+      <!-- Top Information Container -->
+      <div class="main-top-information-container">
+        <!-- Current Academic Term Information -->
+        <div id="current-academic-term">
+          <p>Current Academic Term: <em>2023/24 Fall</em></p>
+        </div>
+        <!-- Home Icon and Account Information -->
+        <div class="main-top-right-container">
+          <div id="home-container">
+            <!-- Home icon linking to the home page -->
+            <a href="./index.html"><img id=home-icon src="../assets/home-icon.png" alt="home-icon"></a>
+          </div>
+          <div class="account-info-container">
+            <img id="account-icon" src="../assets/account-icon.png" alt="account_icon">
+            <div class="account-info">
+              <!-- Display student name and number -->
+              <p id="account-info-container-student-name">Student name</p>
+              <p id="account-info-container-student-number"><em>123456789</em></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- View Grade Container -->
+      <div class="view-grade-container">
+        <h2 class="view-grade-title">View All Grades</h2>
+        <p class="view-grade-paragraph">Enter a course name and see all grades of students.</p>
+        <!-- Form for searching and displaying student grades -->
+        <form class="view-grade-form">
+          <div class="view-grade-form-item">
+            <label class="form-item-label">Course Name</label>
+            <select id="course-name" class="form-item-input">
+              <option value="" disabled selected>Select Course</option>
+            </select>
+          </div>
+          <div class="view-grade-form-item point-scale-container">
+            <label for="point-scale-dropdown">Choose Point Scale</label>
+            <select id="point-scale-dropdown">
+              <option value="" disabled selected>Select Point Scale</option>
+              <option value="7">7</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+          <button type="button" class="form-button" id="view-course-form-button">Show Grades</button>
+        </form>
+        <!-- Containers for displaying student details and lecture results -->
+        <div id="studentDetails"></div>
+        <div id="lectureResults"></div>
+      </div>
+    </main>
+  </div>
+
+  <!-- FOOTER SECTION -->
+  <footer class="footer">
+    <!-- Footer Link Container -->
+    <div class="footer-link-container">
+      <!-- Footer links -->
+      <p class="footer-link"><a href="#">School Page</a></p>
+      <p class="footer-link"><a href="#">Contact</a></p>
+      <p class="footer-link"><a href="#">F.A.Q.</a></p>
+    </div>
+    <!-- Copyright Information -->
+    <p class="footer-copyright">@2023 Arctic University Copyright</p>
+  </footer>
+</body>
+
+</html>

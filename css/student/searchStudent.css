@@ -1,0 +1,162 @@
+/*MAIN PART*/
+.search-student-container{
+  color: var(--white);
+  font-size: .8rem;
+  background-color: var(--dark-blue);
+  margin: 3.2rem 1.6rem;
+  padding: 1.6rem 2.4rem;
+  box-shadow: var(--box-shadow);
+}
+
+.search-student-form{
+  width: 50%;
+}
+
+.search-student-form-item{
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+
+.point-scale-container{
+  margin-top: 1rem;
+}
+#point-scale-dropdown{
+  padding: .2rem .4rem;
+}
+
+.form-item-input{
+  height: 1.6rem;
+}
+
+.form-button{
+  color: var(--white);
+  background-color: var(--darkish-blue);
+  border: 0;
+  height: 1.8rem;
+  width: 50%;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 200ms;
+}
+.form-button:hover,
+.form-button:focus{
+  box-shadow: 0 0 0 2px rgba(0,0,0,.3);
+  background-color: hsl(217, 57%, 25%);
+}
+
+.student-info-container{
+  font-size: 1rem;
+  margin: 1rem 0;
+  padding: .8rem;
+  background-color: var(--white);
+  color: black;
+}
+
+.lecture-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: var(--white);
+  color: black;
+}
+
+.lecture-table th,
+.lecture-table td {
+  border: 1px solid black;
+  padding: .2rem .4rem;
+  text-align: left;
+}
+
+.lecture-table th {
+  background-color: var(--light-gray);
+  color: black;
+}
+
+/*1st breakpoint*/
+@media (max-width: 800px) {
+  .search-student-container{
+    font-size: .7rem;
+    margin: 2.4rem 1.2rem;
+    padding: 1.4rem 2rem;
+  }
+  .search-student-form{
+    width: 70%;
+  }
+  .search-student-form-item{
+    margin: 1.2rem 0;
+  }
+  .form-item-input,
+  #point-scale-dropdown,
+  .form-button{
+    height: 1.4rem;
+  }
+  .form-button{
+    font-size: .7rem;
+    width: 60%;
+  }
+  .student-info-container{
+    font-size: .9rem;
+    margin: .8rem 0;
+    padding: .7rem;
+  }
+  #student-not-found-message,
+  #score-not-found-message{
+    margin-top: 1rem;
+    font-size: .8rem;
+  }
+}
+
+/*1st breakpoint mobile*/
+@media (max-width: 600px) {
+  .search-student-container{
+    text-align: center;
+    font-size: .7rem;
+    margin: 2rem 1rem;
+    padding: 1.2rem 1.6rem;
+  }
+  .search-student-form,
+  .form-button{
+    width: 100%;
+  }
+  .search-student-form-item{
+    margin: 1.5rem 0;
+  }
+  .form-item-input,
+  #point-scale-dropdown,
+  .form-button{
+    height: 1.6rem;
+  }
+  .form-button{
+    font-size: .8rem;
+  }
+
+  .student-info-container{
+    font-size: .8rem;
+    margin: .6rem 0;
+    padding: .6rem;
+  }
+  
+  #student-not-found-message,
+  #score-not-found-message{
+    margin-top: 1rem;
+    font-size: .7rem;
+  }
+
+  .lecture-table {
+    font-size: .6rem;
+  }
+}
+
+/*2nd breakpoint mobile*/
+@media (max-width: 450px) {
+  .search-student-container{
+    font-size: .6rem;
+    margin: 1.6rem .8rem;
+    padding: 1rem 1.2rem;
+  }
+  .form-item-input,
+  #point-scale-dropdown,
+  .form-button{
+    height: 1.4rem;
+  }
+}

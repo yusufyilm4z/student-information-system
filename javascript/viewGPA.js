@@ -1,0 +1,168 @@
+document.addEventListener('DOMContentLoaded', function () {
+  // DOM elements
+  const studentDetailsContainer = document.getElementById('studentDetails');
+  const lectureResults = document.getElementById('lectureResults');
+
+  // Function to search for a student
+  function searchStudent(event) {
+    const searchInput = document.getElementById('view-GPA-input').value;
+    event.preventDefault();
+
+    // Fetch student data from students.json (replace with your actual path)
+    fetch('../json/students.json')
+      .then(response => response.json())
+      .then(data => {
+        // Find the student with the entered studentID
+        const student = data.find(student => student.studentID === searchInput);
+        if (student) {
+          // Display student details and GPA
+          studentDetailsContainer.innerHTML = `
+            <div class="student-info-container">
+              <div class="student-info">
+                <p><strong>Student ID</strong>: ${student.studentID}</p>
+                <p><strong>Name</strong>: ${student.name} ${student.surname}</p>
+              </div>
+              <p id="studentGPA"><strong>GPA</strong>: ${calculateGPA(student.lectures)}</p>
+            </div>
+          `;
+          displayLectures(student.lectures);
+        } else {
+          // Display a message if the student is not found
+          studentDetailsContainer.innerHTML = '<p id="student-not-found-message">Student not found.</p>';
+        }
+      });
+  }
+
+  // Function to display lectures in a table
+  function displayLectures(lectures) {
+    // Clear previous results
+    lectureResults.innerHTML = '';
+
+    // Create a table element
+    const table = document.createElement('table');
+    const pointScale = document.getElementById('point-scale-dropdown').value; // Get selected point scale
+    table.classList.add('lecture-table');
+
+    // Create table headers
+    const headerRow = table.createTHead().insertRow();
+    const headers = ['Lecture Name', 'Midterm Score', 'Final Score', 'Letter Grade'];
+    headers.forEach(headerText => {
+      const th = document.createElement('th');
+      th.classList.add("lecture-table-item");
+      th.textContent = headerText;
+      headerRow.appendChild(th);
+    });
+
+    // Create table body
+    const body = table.createTBody();
+
+    // Display each lecture as a table row
+    lectures.forEach(lecture => {
+      const row = body.insertRow();
+      const lectureNameCell = row.insertCell(0);
+      const midtermScoreCell = row.insertCell(1);
+      const finalScoreCell = row.insertCell(2);
+      const letterGradeCell = row.insertCell(3);
+
+      // Calculate weighted grade (40% midterm + 60% final)
+      const averageGrade = 0.4 * lecture.midtermScore + 0.6 * lecture.finalScore;
+
+      // Assign letter grade based on the selected point scale
+      const letterGrade = assignLetterGrade(averageGrade, pointScale);
+
+      // Fill cells with lecture data and grades
+      lectureNameCell.textContent = lecture.name;
+      midtermScoreCell.textContent = lecture.midtermScore;
+      finalScoreCell.textContent = lecture.finalScore;
+      letterGradeCell.textContent = letterGrade;
+
+      lectureResults.appendChild(table);
+    });
+  }
+
+  // Function to calculate GPA
+  function calculateGPA(lectures) {
+    // Calculate GPA based on the lectures and their grades
+    let totalCredit = 0;
+    let totalGradePoints = 0;
+
+    lectures.forEach(lecture => {
+      // Assume each course has a credit value (you can modify this based on your data)
+      const credit = 3; // Adjust the credit value as needed
+
+      // Convert percentage score to GPA
+      const gradePoint = convertPercentageToGPA(lecture.finalScore);
+
+      // Accumulate total credit and grade points
+      totalCredit += credit;
+      totalGradePoints += credit * gradePoint;
+    });
+
+    // Calculate GPA
+    const gpa = totalGradePoints / totalCredit;
+    return gpa.toFixed(2); // Round to two decimal places
+  }
+
+  // Function to convert percentage to GPA
+  function convertPercentageToGPA(percentage) {
+    // Convert percentage score to GPA (you can modify this based on your grading scale)
+    if (percentage >= 90) {
+      return 4.0;
+    } else if (percentage >= 80) {
+      return 3.0;
+    } else if (percentage >= 70) {
+      return 2.0;
+    } else if (percentage >= 60) {
+      return 1.0;
+    } else {
+      return 0.0;
+    }
+  }
+
+  // Function to assign letter grade based on the point scale
+  function assignLetterGrade(averageGrade, pointScale) {
+    if (pointScale === "7") {
+      return assignLetterGrade7Scale(averageGrade);
+    } else if (pointScale === "10") {
+      return assignLetterGrade10Scale(averageGrade);
+    } else {
+      return 'N/A';
+    }
+  }
+
+  // Function to assign letter grade in a 7-point scale
+  function assignLetterGrade7Scale(averageGrade) {
+    if (averageGrade >= 93) {
+      return 'A';
+    } else if (averageGrade >= 85) {
+      return 'B';
+    } else if (averageGrade >= 77) {
+      return 'C';
+    } else if (averageGrade >= 70) {
+      return 'D';
+    } else {
+      return 'F';
+    }
+  }
+
+  // Function to assign letter grade in a 10-point scale
+  function assignLetterGrade10Scale(averageGrade) {
+    if (averageGrade >= 90) {
+      return 'A';
+    } else if (averageGrade >= 80) {
+      return 'B';
+    } else if (averageGrade >= 70) {
+      return 'C';
+    } else if (averageGrade >= 60) {
+      return 'D';
+    } else {
+      return 'F';
+    }
+  }
+
+  // Attach the search function to the button click event
+  const searchButton = document.querySelector('.form-button');
+  if (searchButton) {
+    searchButton.addEventListener('click', searchStudent);
+  }
+});

@@ -1,0 +1,89 @@
+/*MAIN PART*/
+.add-course-container{
+  color: var(--white);
+  font-size: .8rem;
+  background-color: var(--dark-blue);
+  margin: 3.2rem 1.6rem;
+  padding: 1.6rem 2.4rem;
+  box-shadow: var(--box-shadow);
+}
+
+.add-course-form{
+  width: 50%;
+}
+
+.add-course-form-item{
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+
+.form-item-input,
+#point-scale-dropdown{
+  height: 1.6rem;
+}
+
+.form-button{
+  color: var(--white);
+  background-color: var(--darkish-blue);
+  border: 0;
+  height: 1.8rem;
+  width: 50%;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 200ms;
+}
+.form-button:hover,
+.form-button:focus{
+  box-shadow: 0 0 0 2px rgba(0,0,0,.3);
+  background-color: hsl(217, 57%, 25%);
+}
+
+/*1st breakpoint*/
+@media (max-width: 800px) {
+  .add-course-container{
+    font-size: .7rem;
+    margin: 2.4rem 1.2rem;
+    padding: 1.4rem 2rem;
+  }
+  .add-course-form{
+    width: 70%;
+  }
+  .add-course-form-item{
+    margin: 1.2rem 0;
+  }
+  .form-item-input,
+  #point-scale-dropdown,
+  .form-button{
+    height: 1.4rem;
+  }
+  .form-button{
+    font-size: .7rem;
+    width: 60%;
+  }
+}
+
+/*1st breakpoint mobile*/
+@media (max-width: 600px) {
+  .add-course-container{
+    text-align: center;
+    font-size: .8rem;
+    margin: 2rem 1rem;
+    padding: 1.2rem 1.6rem;
+  }
+  .add-course-form,
+  .form-button{
+    width: 100%;
+  }
+  .add-course-form-item{
+    margin: 1rem 0;
+  }
+  .form-item-input,
+  #point-scale-dropdown,
+  .form-button{
+    height: 1.6rem;
+  }
+  .form-button{
+    font-size: .8rem;
+  }
+}

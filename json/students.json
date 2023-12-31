@@ -1,0 +1,999 @@
+[
+  {
+    "name": "Liam",
+    "surname": "Smith",
+    "studentID": "001",
+    "lectures": [
+      {"name": "MATH1852 Calculus", "midtermScore": 94, "finalScore": 92},
+      {"name": "CENG2001 Data Structures and Algorithms", "midtermScore": 78, "finalScore": 88},
+      {"name": "CENG2007 Digital Logic Design", "midtermScore": 90, "finalScore": 86}
+    ]
+  },
+  {
+    "name": "Olivia",
+    "surname": "Johnson",
+    "studentID": "002",
+    "lectures": [
+      {"name": "ISG1801 Occupational Health and Safety", "midtermScore": 95, "finalScore": 79},
+      {"name": "CENG3502 Dynamic Web Programming", "midtermScore": 87, "finalScore": 91},
+      {"name": "CENG3005 Database Management Systems", "midtermScore": 82, "finalScore": 76}
+    ]
+  },
+  {
+    "name": "Jackson",
+    "surname": "Brown",
+    "studentID": "003",
+    "lectures": [
+      {"name": "CENG1004 Introduction to Object Oriented Programming", "midtermScore": 72, "finalScore": 80},
+      {"name": "CENG3545 Mobile Application Development", "midtermScore": 85, "finalScore": 92},
+      {"name": "MATH1852 Calculus", "midtermScore": 77, "finalScore": 89}
+    ]
+  },
+  {
+    "name": "Sophia",
+    "surname": "Miller",
+    "studentID": "004",
+    "lectures": [
+      {"name": "CENG2001 Data Structures and Algorithms", "midtermScore": 92, "finalScore": 88},
+      {"name": "CENG2007 Digital Logic Design", "midtermScore": 79, "finalScore": 85},
+      {"name": "ISG1801 Occupational Health and Safety", "midtermScore": 91, "finalScore": 97}
+    ]
+  },
+  {
+    "name": "Ethan",
+    "surname": "Davis",
+    "studentID": "005",
+    "lectures": [
+      {"name": "CENG3502 Dynamic Web Programming", "midtermScore": 88, "finalScore": 81},
+      {"name": "CENG3005 Database Management Systems", "midtermScore": 75, "finalScore": 92},
+      {"name": "CENG1004 Introduction to Object Oriented Programming", "midtermScore": 82, "finalScore": 77}
+    ]
+  },
+  {
+    "name": "Ava",
+    "surname": "Wilson",
+    "studentID": "006",
+    "lectures": [
+      {"name": "CENG3545 Mobile Application Development", "midtermScore": 78, "finalScore": 83},
+      {"name": "MATH1852 Calculus", "midtermScore": 91, "finalScore": 87},
+      {"name": "CENG2001 Data Structures and Algorithms", "midtermScore": 86, "finalScore": 79}
+    ]
+  },
+  {
+    "name": "Mia",
+    "surname": "Taylor",
+    "studentID": "007",
+    "lectures": [
+      {"name": "CENG2007 Digital Logic Design", "midtermScore": 99, "finalScore": 90},
+      {"name": "ISG1801 Occupational Health and Safety", "midtermScore": 96, "finalScore": 91},
+      {"name": "CENG3502 Dynamic Web Programming", "midtermScore": 90, "finalScore": 96}
+    ]
+  },
+  {
+    "name": "Noah",
+    "surname": "Moore",
+    "studentID": "008",
+    "lectures": [
+      {"name": "CENG3005 Database Management Systems", "midtermScore": 83, "finalScore": 79},
+      {"name": "CENG1004 Introduction to Object Oriented Programming", "midtermScore": 87, "finalScore": 91},
+      {"name": "CENG3545 Mobile Application Development", "midtermScore": 92, "finalScore": 78}
+    ]
+  },
+  {
+    "name": "Elijah",
+    "surname": "Clark",
+    "studentID": "009",
+    "lectures": [
+      {"name": "MATH1852 Calculus", "midtermScore": 74, "finalScore": 85},
+      {"name": "CENG2001 Data Structures and Algorithms", "midtermScore": 89, "finalScore": 80},
+      {"name": "CENG2007 Digital Logic Design", "midtermScore": 83, "finalScore": 92}
+    ]
+  },
+  {
+    "name": "Emma",
+    "surname": "Hernandez",
+    "studentID": "010",
+    "lectures": [
+      {"name": "ISG1801 Occupational Health and Safety", "midtermScore": 85, "finalScore": 81},
+      {"name": "CENG3502 Dynamic Web Programming", "midtermScore": 88, "finalScore": 79},
+      {"name": "CENG3005 Database Management Systems", "midtermScore": 76, "finalScore": 89}
+    ]
+  },
+  {
+    "name": "Carter",
+    "surname": "Garcia",
+    "studentID": "011",
+    "lectures": [
+      {"name": "CENG1004 Introduction to Object Oriented Programming", "midtermScore": 80, "finalScore": 85},
+      {"name": "CENG3545 Mobile Application Development", "midtermScore": 87, "finalScore": 91},
+      {"name": "MATH1852 Calculus", "midtermScore": 82, "finalScore": 76}
+    ]
+  },
+  {
+    "name": "Scarlett",
+    "surname": "Perez",
+    "studentID": "012",
+    "lectures": [
+      {"name": "CENG2001 Data Structures and Algorithms", "midtermScore": 90, "finalScore": 86},
+      {"name": "CENG2007 Digital Logic Design", "midtermScore": 86, "finalScore": 79},
+      {"name": "ISG1801 Occupational Health and Safety", "midtermScore": 77, "finalScore": 93}
+    ]
+  },
+  {
+    "name": "James",
+    "surname": "Martinez",
+    "studentID": "013",
+    "lectures": [
+      {"name": "CENG3502 Dynamic Web Programming", "midtermScore": 79, "finalScore": 85},
+      {"name": "CENG3005 Database Management Systems", "midtermScore": 84, "finalScore": 92},
+      {"name": "CENG1004 Introduction to Object Oriented Programming", "midtermScore": 88, "finalScore": 81}
+    ]
+  },
+  {
+    "name": "Avery",
+    "surname": "Lopez",
+    "studentID": "014",
+    "lectures": [
+      {"name": "CENG3545 Mobile Application Development", "midtermScore": 82, "finalScore": 87},
+      {"name": "MATH1852 Calculus", "midtermScore": 79, "finalScore": 85},
+      {"name": "CENG2001 Data Structures and Algorithms", "midtermScore": 84, "finalScore": 92}
+    ]
+  },
+  {
+    "name": "Mason",
+    "surname": "Flores",
+    "studentID": "015",
+    "lectures": [
+      {"name": "CENG2007 Digital Logic Design", "midtermScore": 69, "finalScore": 77},
+      {"name": "ISG1801 Occupational Health and Safety", "midtermScore": 70, "finalScore": 85},
+      {"name": "CENG3502 Dynamic Web Programming", "midtermScore": 93, "finalScore": 92}
+    ]
+  },
+  {
+    "name": "Grace",
+    "surname": "Taylor",
+    "studentID": "016",
+    "lectures": [
+      {"name": "CENG3005 Database Management Systems", "midtermScore": 94, "finalScore": 79},
+      {"name": "CENG1004 Introduction to Object Oriented Programming", "midtermScore": 87, "finalScore": 91},
+      {"name": "CENG3545 Mobile Application Development", "midtermScore": 82, "finalScore": 76}
+    ]
+  },
+  {
+    "name": "Isaac",
+    "surname": "Campbell",
+    "studentID": "017",
+    "lectures": [
+      {"name": "MATH1852 Calculus", "midtermScore": 80, "finalScore": 88},
+      {"name": "CENG2001 Data Structures and Algorithms", "midtermScore": 86, "finalScore": 79},
+      {"name": "CENG2007 Digital Logic Design", "midtermScore": 78, "finalScore": 90}
+    ]
+  },
+  {
+    "name": "Aria",
+    "surname": "Clark",
+    "studentID": "018",
+    "lectures": [
+      {"name": "ISG1801 Occupational Health and Safety", "midtermScore": 82, "finalScore": 87},
+      {"name": "CENG3502 Dynamic Web Programming", "midtermScore": 59, "finalScore": 75},
+      {"name": "CENG3005 Database Management Systems", "midtermScore": 84, "finalScore": 92}
+    ]
+  },
+  {
+    "name": "Evelyn",
+    "surname": "Hernandez",
+    "studentID": "019",
+    "lectures": [
+      {"name": "CENG1004 Introduction to Object Oriented Programming", "midtermScore": 88, "finalScore": 81},
+      {"name": "CENG3545 Mobile Application Development", "midtermScore": 76, "finalScore": 89},
+      {"name": "MATH1852 Calculus", "midtermScore": 89, "finalScore": 78}
+    ]
+  },
+  {
+    "name": "Benjamin",
+    "surname": "Garcia",
+    "studentID": "020",
+    "lectures": [
+      {"name": "CENG2001 Data Structures and Algorithms", "midtermScore": 82, "finalScore": 76},
+      {"name": "CENG2007 Digital Logic Design", "midtermScore": 91, "finalScore": 87},
+      {"name": "ISG1801 Occupational Health and Safety", "midtermScore": 85, "finalScore": 79}
+    ]
+  },
+  {
+    "name": "Lily",
+    "surname": "Perez",
+    "studentID": "021",
+    "lectures": [
+      {"name": "CENG3502 Dynamic Web Programming", "midtermScore": 83, "finalScore": 92},
+      {"name": "CENG3005 Database Management Systems", "midtermScore": 77, "finalScore": 88},
+      {"name": "CENG1004 Introduction to Object Oriented Programming", "midtermScore": 89, "finalScore": 86}
+    ]
+  },
+  {
+    "name": "Logan",
+    "surname": "Martinez",
+    "studentID": "022",
+    "lectures": [
+      {"name": "CENG3545 Mobile Application Development", "midtermScore": 90, "finalScore": 86},
+      {"name": "MATH1852 Calculus", "midtermScore": 84, "finalScore": 92},
+      {"name": "CENG2001 Data Structures and Algorithms", "midtermScore": 88, "finalScore": 81}
+    ]
+  },
+  {
+    "name": "Chloe",
+    "surname": "Lopez",
+    "studentID": "023",
+    "lectures": [
+      {"name": "CENG2007 Digital Logic Design", "midtermScore": 87, "finalScore": 79},
+      {"name": "ISG1801 Occupational Health and Safety", "midtermScore": 91, "finalScore": 77},
+      {"name": "CENG3502 Dynamic Web Programming", "midtermScore": 82, "finalScore": 76}
+    ]
+  },
+  {
+    "name": "Daniel",
+    "surname": "Flores",
+    "studentID": "024",
+    "lectures": [
+      {"name": "CENG3005 Database Management Systems", "midtermScore": 92, "finalScore": 78},
+      {"name": "CENG1004 Introduction to Object Oriented Programming", "midtermScore": 79, "finalScore": 85},
+      {"name": "CENG3545 Mobile Application Development", "midtermScore": 83, "finalScore": 92}
+    ]
+  },
+  {
+    "name": "Aiden",
+    "surname": "Taylor",
+    "studentID": "025",
+    "lectures": [
+      {"name": "MATH1852 Calculus", "midtermScore": 80, "finalScore": 88},
+      {"name": "CENG2001 Data Structures and Algorithms", "midtermScore": 86, "finalScore": 79},
+      {"name": "CENG2007 Digital Logic Design", "midtermScore": 78, "finalScore": 90}
+    ]
+  },
+  {
+    "name": "Zoe",
+    "surname": "Clark",
+    "studentID": "026",
+    "lectures": [
+      {"name": "ISG1801 Occupational Health and Safety", "midtermScore": 82, "finalScore": 87},
+      {"name": "CENG3502 Dynamic Web Programming", "midtermScore": 79, "finalScore": 85},
+      {"name": "CENG3005 Database Management Systems", "midtermScore": 84, "finalScore": 92}
+    ]
+  },
+  {
+    "name": "Sofia",
+    "surname": "Hernandez",
+    "studentID": "027",
+    "lectures": [
+      {"name": "CENG1004 Introduction to Object Oriented Programming", "midtermScore": 88, "finalScore": 81},
+      {"name": "CENG3545 Mobile Application Development", "midtermScore": 76, "finalScore": 89},
+      {"name": "MATH1852 Calculus", "midtermScore": 89, "finalScore": 78}
+    ]
+  },
+  {
+    "name": "Eva",
+    "surname": "Garcia",
+    "studentID": "028",
+    "lectures": [
+      {"name": "CENG2001 Data Structures and Algorithms", "midtermScore": 82, "finalScore": 76},
+      {"name": "CENG2007 Digital Logic Design", "midtermScore": 91, "finalScore": 87},
+      {"name": "ISG1801 Occupational Health and Safety", "midtermScore": 85, "finalScore": 79}
+    ]
+  },
+  {
+    "name": "Landon",
+    "surname": "Martinez",
+    "studentID": "029",
+    "lectures": [
+      {"name": "CENG3502 Dynamic Web Programming", "midtermScore": 88, "finalScore": 81},
+      {"name": "CENG3005 Database Management Systems", "midtermScore": 75, "finalScore": 92},
+      {"name": "CENG1004 Introduction to Object Oriented Programming", "midtermScore": 82, "finalScore": 77}
+    ]
+  },
+  {
+    "name": "Aubrey",
+    "surname": "Lopez",
+    "studentID": "030",
+    "lectures": [
+      {"name": "CENG3545 Mobile Application Development", "midtermScore": 78, "finalScore": 83},
+      {"name": "MATH1852 Calculus", "midtermScore": 91, "finalScore": 87},
+      {"name": "CENG2001 Data Structures and Algorithms", "midtermScore": 86, "finalScore": 79}
+    ]
+  },
+  {
+    "name": "Eli",
+    "surname": "Flores",
+    "studentID": "031",
+    "lectures": [
+      {"name": "CENG2007 Digital Logic Design", "midtermScore": 86, "finalScore": 79},
+      {"name": "ISG1801 Occupational Health and Safety", "midtermScore": 77, "finalScore": 93},
+      {"name": "CENG3502 Dynamic Web Programming", "midtermScore": 79, "finalScore": 85}
+    ]
+  },
+  {
+    "name": "Natalie",
+    "surname": "Taylor",
+    "studentID": "032",
+    "lectures": [
+      {"name": "CENG3005 Database Management Systems", "midtermScore": 94, "finalScore": 79},
+      {"name": "CENG1004 Introduction to Object Oriented Programming", "midtermScore": 87, "finalScore": 91},
+      {"name": "CENG3545 Mobile Application Development", "midtermScore": 82, "finalScore": 76}
+    ]
+  },
+  {
+    "name": "Levi",
+    "surname": "Campbell",
+    "studentID": "033",
+    "lectures": [
+      {"name": "MATH1852 Calculus", "midtermScore": 80, "finalScore": 88},
+      {"name": "CENG2001 Data Structures and Algorithms", "midtermScore": 86, "finalScore": 79},
+      {"name": "CENG2007 Digital Logic Design", "midtermScore": 78, "finalScore": 90}
+    ]
+  },
+  {
+    "name": "Madison",
+    "surname": "Clark",
+    "studentID": "034",
+    "lectures": [
+      {"name": "ISG1801 Occupational Health and Safety", "midtermScore": 83, "finalScore": 87},
+      {"name": "CENG3502 Dynamic Web Programming", "midtermScore": 79, "finalScore": 85},
+      {"name": "CENG3005 Database Management Systems", "midtermScore": 84, "finalScore": 92}
+    ]
+  },
+  {
+    "name": "Lincoln",
+    "surname": "Hernandez",
+    "studentID": "035",
+    "lectures": [
+      {"name": "CENG1004 Introduction to Object Oriented Programming", "midtermScore": 88, "finalScore": 81},
+      {"name": "CENG3545 Mobile Application Development", "midtermScore": 76, "finalScore": 89},
+      {"name": "MATH1852 Calculus", "midtermScore": 89, "finalScore": 78}
+    ]
+  },
+  {
+    "name": "Avery",
+    "surname": "Garcia",
+    "studentID": "036",
+    "lectures": [
+      {"name": "CENG2001 Data Structures and Algorithms", "midtermScore": 82, "finalScore": 76},
+      {"name": "CENG2007 Digital Logic Design", "midtermScore": 91, "finalScore": 87},
+      {"name": "ISG1801 Occupational Health and Safety", "midtermScore": 85, "finalScore": 79}
+    ]
+  },
+  {
+    "name": "Elena",
+    "surname": "Perez",
+    "studentID": "037",
+    "lectures": [
+      {"name": "CENG3502 Dynamic Web Programming", "midtermScore": 79, "finalScore": 85},
+      {"name": "CENG3005 Database Management Systems", "midtermScore": 95, "finalScore": 89},
+      {"name": "CENG1004 Introduction to Object Oriented Programming", "midtermScore": 87, "finalScore": 91}
+    ]
+  },
+  {
+    "name": "Hudson",
+    "surname": "Martinez",
+    "studentID": "038",
+    "lectures": [
+      {"name": "CENG3545 Mobile Application Development", "midtermScore": 86, "finalScore": 79},
+      {"name": "MATH1852 Calculus", "midtermScore": 77, "finalScore": 93},
+      {"name": "CENG2001 Data Structures and Algorithms", "midtermScore": 79, "finalScore": 85}
+    ]
+  },
+  {
+    "name": "Ariana",
+    "surname": "Lopez",
+    "studentID": "039",
+    "lectures": [
+      {"name": "CENG2007 Digital Logic Design", "midtermScore": 82, "finalScore": 87},
+      {"name": "ISG1801 Occupational Health and Safety", "midtermScore": 79, "finalScore": 85},
+      {"name": "CENG3502 Dynamic Web Programming", "midtermScore": 84, "finalScore": 92}
+    ]
+  },
+  {
+    "name": "Harrison",
+    "surname": "Flores",
+    "studentID": "040",
+    "lectures": [
+      {"name": "CENG3005 Database Management Systems", "midtermScore": 88, "finalScore": 81},
+      {"name": "CENG1004 Introduction to Object Oriented Programming", "midtermScore": 81, "finalScore": 88},
+      {"name": "CENG3545 Mobile Application Development", "midtermScore": 79, "finalScore": 85}
+    ]
+  },
+  {
+    "name": "Gianna",
+    "surname": "Taylor",
+    "studentID": "041",
+    "lectures": [
+      {"name": "MATH1852 Calculus", "midtermScore": 67, "finalScore": 48},
+      {"name": "CENG2001 Data Structures and Algorithms", "midtermScore": 54, "finalScore": 62},
+      {"name": "CENG2007 Digital Logic Design", "midtermScore": 72, "finalScore": 58}
+    ]
+  },
+  {
+    "name": "Leo",
+    "surname": "Clark",
+    "studentID": "042",
+    "lectures": [
+      {"name": "ISG1801 Occupational Health and Safety", "midtermScore": 87, "finalScore": 73},
+      {"name": "CENG3502 Dynamic Web Programming", "midtermScore": 39, "finalScore": 68},
+      {"name": "CENG3005 Database Management Systems", "midtermScore": 70, "finalScore": 52}
+    ]
+  },
+  {
+    "name": "Lydia",
+    "surname": "Hernandez",
+    "studentID": "043",
+    "lectures": [
+      {"name": "CENG1004 Introduction to Object Oriented Programming", "midtermScore": 55, "finalScore": 40},
+      {"name": "CENG3545 Mobile Application Development", "midtermScore": 64, "finalScore": 46},
+      {"name": "MATH1852 Calculus", "midtermScore": 47, "finalScore": 50}
+    ]
+  },
+  {
+    "name": "Nolan",
+    "surname": "Garcia",
+    "studentID": "044",
+    "lectures": [
+      {"name": "CENG2001 Data Structures and Algorithms", "midtermScore": 83, "finalScore": 65},
+      {"name": "CENG2007 Digital Logic Design", "midtermScore": 60, "finalScore": 74},
+      {"name": "ISG1801 Occupational Health and Safety", "midtermScore": 48, "finalScore": 59}
+    ]
+  },
+  {
+    "name": "Penelope",
+    "surname": "Perez",
+    "studentID": "045",
+    "lectures": [
+      {"name": "CENG3502 Dynamic Web Programming", "midtermScore": 76, "finalScore": 61},
+      {"name": "CENG3005 Database Management Systems", "midtermScore": 58, "finalScore": 70},
+      {"name": "CENG1004 Introduction to Object Oriented Programming", "midtermScore": 67, "finalScore": 55}
+    ]
+  },
+  {
+    "name": "Owen",
+    "surname": "Martinez",
+    "studentID": "046",
+    "lectures": [
+      {"name": "CENG3545 Mobile Application Development", "midtermScore": 53, "finalScore": 45}
+    ]
+  },
+  {
+  "name": "Lucy",
+    "surname": "Lopez",
+    "studentID": "047",
+    "lectures": [
+      {"name": "CENG2007 Digital Logic Design", "midtermScore": 69, "finalScore": 52},
+      {"name": "ISG1801 Occupational Health and Safety", "midtermScore": 41, "finalScore": 63},
+      {"name": "CENG3502 Dynamic Web Programming", "midtermScore": 74, "finalScore": 57}
+    ]
+  },
+  {
+    "name": "Mateo",
+    "surname": "Flores",
+    "studentID": "048",
+    "lectures": [
+      {"name": "CENG3005 Database Management Systems", "midtermScore": 50, "finalScore": 49},
+      {"name": "CENG1004 Introduction to Object Oriented Programming", "midtermScore": 66, "finalScore": 54},
+      {"name": "CENG3545 Mobile Application Development", "midtermScore": 47, "finalScore": 60}
+    ]
+  },
+  {
+    "name": "Riley",
+    "surname": "Taylor",
+    "studentID": "049",
+    "lectures": [
+      {"name": "MATH1852 Calculus", "midtermScore": 53, "finalScore": 65},
+      {"name": "CENG2001 Data Structures and Algorithms", "midtermScore": 68, "finalScore": 51},
+      {"name": "CENG2007 Digital Logic Design", "midtermScore": 42, "finalScore": 58}
+    ]
+  },
+  {
+    "name": "Stella",
+    "surname": "Clark",
+    "studentID": "050",
+    "lectures": [
+      {"name": "ISG1801 Occupational Health and Safety", "midtermScore": 55, "finalScore": 62},
+      {"name": "CENG3502 Dynamic Web Programming", "midtermScore": 72, "finalScore": 56},
+      {"name": "CENG3005 Database Management Systems", "midtermScore": 46, "finalScore": 64}
+    ]
+  },
+  {
+    "name": "Theo",
+    "surname": "Hernandez",
+    "studentID": "051",
+    "lectures": [
+      {"name": "CENG1004 Introduction to Object Oriented Programming", "midtermScore": 61, "finalScore": 73},
+      {"name": "CENG3545 Mobile Application Development", "midtermScore": 50, "finalScore": 47},
+      {"name": "MATH1852 Calculus", "midtermScore": 55, "finalScore": 59}
+    ]
+  },
+  {
+    "name": "Valentina",
+    "surname": "Garcia",
+    "studentID": "052",
+    "lectures": [
+      {"name": "CENG2001 Data Structures and Algorithms", "midtermScore": 67, "finalScore": 71},
+      {"name": "CENG2007 Digital Logic Design", "midtermScore": 42, "finalScore": 66},
+      {"name": "ISG1801 Occupational Health and Safety", "midtermScore": 59, "finalScore": 53}
+    ]
+  },
+  {
+    "name": "Xavier",
+    "surname": "Perez",
+    "studentID": "053",
+    "lectures": [
+      {"name": "CENG3502 Dynamic Web Programming", "midtermScore": 64, "finalScore": 52},
+      {"name": "CENG3005 Database Management Systems", "midtermScore": 58, "finalScore": 45},
+      {"name": "CENG1004 Introduction to Object Oriented Programming", "midtermScore": 60, "finalScore": 49}
+    ]
+  },
+  {
+    "name": "Zara",
+    "surname": "Martinez",
+    "studentID": "054",
+    "lectures": [
+      {"name": "CENG3545 Mobile Application Development", "midtermScore": 55, "finalScore": 47},
+      {"name": "MATH1852 Calculus", "midtermScore": 43, "finalScore": 59},
+      {"name": "CENG2001 Data Structures and Algorithms", "midtermScore": 68, "finalScore": 54}
+    ]
+  },
+  {
+    "name": "Zachary",
+    "surname": "Lopez",
+    "studentID": "055",
+    "lectures": [
+      {"name": "CENG2007 Digital Logic Design", "midtermScore": 51, "finalScore": 61},
+      {"name": "ISG1801 Occupational Health and Safety", "midtermScore": 57, "finalScore": 65}
+    ]
+  },
+  {
+    "name": "Elijah",
+    "surname": "Wilson",
+    "studentID": "056",
+    "lectures": [
+      {"name": "CENG2007 Digital Logic Design", "midtermScore": 63, "finalScore": 50},
+      {"name": "ISG1801 Occupational Health and Safety", "midtermScore": 55, "finalScore": 48},
+      {"name": "CENG3502 Dynamic Web Programming", "midtermScore": 49, "finalScore": 67}
+    ]
+  },
+  {
+    "name": "Ava",
+    "surname": "Moore",
+    "studentID": "057",
+    "lectures": [
+      {"name": "CENG3005 Database Management Systems", "midtermScore": 66, "finalScore": 60},
+      {"name": "CENG1004 Introduction to Object Oriented Programming", "midtermScore": 48, "finalScore": 56},
+      {"name": "CENG3545 Mobile Application Development", "midtermScore": 54, "finalScore": 68}
+    ]
+  },
+  {
+    "name": "Mason",
+    "surname": "Taylor",
+    "studentID": "058",
+    "lectures": [
+      {"name": "MATH1852 Calculus", "midtermScore": 50, "finalScore": 64},
+      {"name": "CENG2001 Data Structures and Algorithms", "midtermScore": 53, "finalScore": 46},
+      {"name": "CENG2007 Digital Logic Design", "midtermScore": 45, "finalScore": 55}
+    ]
+  },
+  {
+    "name": "Grace",
+    "surname": "Clark",
+    "studentID": "059",
+    "lectures": [
+      {"name": "ISG1801 Occupational Health and Safety", "midtermScore": 59, "finalScore": 53},
+      {"name": "CENG3502 Dynamic Web Programming", "midtermScore": 62, "finalScore": 61},
+      {"name": "CENG3005 Database Management Systems", "midtermScore": 44, "finalScore": 58}
+    ]
+  },
+  {
+    "name": "Isaac",
+    "surname": "Hernandez",
+    "studentID": "060",
+    "lectures": [
+      {"name": "CENG1004 Introduction to Object Oriented Programming", "midtermScore": 51, "finalScore": 69},
+      {"name": "CENG3545 Mobile Application Development", "midtermScore": 47, "finalScore": 50},
+      {"name": "MATH1852 Calculus", "midtermScore": 66, "finalScore": 57}
+    ]
+  },
+  {
+    "name": "Aria",
+    "surname": "Garcia",
+    "studentID": "061",
+    "lectures": [
+      {"name": "CENG2001 Data Structures and Algorithms", "midtermScore": 73, "finalScore": 81},
+      {"name": "CENG2007 Digital Logic Design", "midtermScore": 78, "finalScore": 88},
+      {"name": "ISG1801 Occupational Health and Safety", "midtermScore": 76, "finalScore": 85}
+    ]
+  },
+  {
+    "name": "Evelyn",
+    "surname": "Perez",
+    "studentID": "062",
+    "lectures": [
+      {"name": "CENG3502 Dynamic Web Programming", "midtermScore": 85, "finalScore": 92},
+      {"name": "CENG3005 Database Management Systems", "midtermScore": 80, "finalScore": 89},
+      {"name": "CENG1004 Introduction to Object Oriented Programming", "midtermScore": 82, "finalScore": 91}
+    ]
+  },
+  {
+    "name": "Benjamin",
+    "surname": "Martinez",
+    "studentID": "063",
+    "lectures": [
+      {"name": "CENG3545 Mobile Application Development", "midtermScore": 88, "finalScore": 79},
+      {"name": "MATH1852 Calculus", "midtermScore": 87, "finalScore": 81},
+      {"name": "CENG2001 Data Structures and Algorithms", "midtermScore": 85, "finalScore": 90}
+    ]
+  },
+  {
+    "name": "Lily",
+    "surname": "Lopez",
+    "studentID": "064",
+    "lectures": [
+      {"name": "CENG2007 Digital Logic Design", "midtermScore": 79, "finalScore": 88},
+      {"name": "ISG1801 Occupational Health and Safety", "midtermScore": 81, "finalScore": 84},
+      {"name": "CENG3502 Dynamic Web Programming", "midtermScore": 83, "finalScore": 87}
+    ]
+  },
+  {
+    "name": "Logan",
+    "surname": "Flores",
+    "studentID": "065",
+    "lectures": [
+      {"name": "CENG3005 Database Management Systems", "midtermScore": 82, "finalScore": 90},
+      {"name": "CENG1004 Introduction to Object Oriented Programming", "midtermScore": 86, "finalScore": 85},
+      {"name": "CENG3545 Mobile Application Development", "midtermScore": 88, "finalScore": 82}
+    ]
+  },
+  {
+    "name": "Chloe",
+    "surname": "Taylor",
+    "studentID": "066",
+    "lectures": [
+      {"name": "MATH1852 Calculus", "midtermScore": 75, "finalScore": 92},
+      {"name": "CENG2001 Data Structures and Algorithms", "midtermScore": 79, "finalScore": 87},
+      {"name": "CENG2007 Digital Logic Design", "midtermScore": 83, "finalScore": 89}
+    ]
+  },
+  {
+    "name": "Daniel",
+    "surname": "Clark",
+    "studentID": "067",
+    "lectures": [
+      {"name": "ISG1801 Occupational Health and Safety", "midtermScore": 84, "finalScore": 86},
+      {"name": "CENG3502 Dynamic Web Programming", "midtermScore": 87, "finalScore": 81},
+      {"name": "CENG3005 Database Management Systems", "midtermScore": 89, "finalScore": 79}
+    ]
+  },
+  {
+    "name": "Aiden",
+    "surname": "Hernandez",
+    "studentID": "068",
+    "lectures": [
+      {"name": "CENG1004 Introduction to Object Oriented Programming", "midtermScore": 82, "finalScore": 87},
+      {"name": "CENG3545 Mobile Application Development", "midtermScore": 85, "finalScore": 88},
+      {"name": "MATH1852 Calculus", "midtermScore": 81, "finalScore": 90}
+    ]
+  },
+  {
+    "name": "Zoe",
+    "surname": "Garcia",
+    "studentID": "069",
+    "lectures": [
+      {"name": "CENG2001 Data Structures and Algorithms", "midtermScore": 87, "finalScore": 83},
+      {"name": "CENG2007 Digital Logic Design", "midtermScore": 80, "finalScore": 88},
+      {"name": "ISG1801 Occupational Health and Safety", "midtermScore": 82, "finalScore": 89}
+    ]
+  },
+  {
+    "name": "Sofia",
+    "surname": "Perez",
+    "studentID": "070",
+    "lectures": [
+      {"name": "CENG3502 Dynamic Web Programming", "midtermScore": 86, "finalScore": 85},
+      {"name": "CENG3005 Database Management Systems", "midtermScore": 88, "finalScore": 84},
+      {"name": "CENG1004 Introduction to Object Oriented Programming", "midtermScore": 84, "finalScore": 82}
+    ]
+  },
+  {
+    "name": "Ethan",
+    "surname": "Martinez",
+    "studentID": "071",
+    "lectures": [
+      {"name": "CENG3545 Mobile Application Development", "midtermScore": 87, "finalScore": 80},
+      {"name": "MATH1852 Calculus", "midtermScore": 82, "finalScore": 88},
+      {"name": "CENG2001 Data Structures and Algorithms", "midtermScore": 85, "finalScore": 83}
+    ]
+  },
+  {
+    "name": "Emma",
+    "surname": "Lopez",
+    "studentID": "072",
+    "lectures": [
+      {"name": "CENG2007 Digital Logic Design", "midtermScore": 80, "finalScore": 87},
+      {"name": "ISG1801 Occupational Health and Safety", "midtermScore": 86, "finalScore": 84},
+      {"name": "CENG3502 Dynamic Web Programming", "midtermScore": 82, "finalScore": 88}
+    ]
+  },
+  {
+    "name": "Carter",
+    "surname": "Flores",
+    "studentID": "073",
+    "lectures": [
+      {"name": "CENG3005 Database Management Systems", "midtermScore": 79, "finalScore": 60},
+      {"name": "CENG1004 Introduction to Object Oriented Programming", "midtermScore": 97, "finalScore": 92},
+      {"name": "CENG3545 Mobile Application Development", "midtermScore": 83, "finalScore": 86}
+    ]
+  },
+  {
+    "name": "Scarlett",
+    "surname": "Taylor",
+    "studentID": "074",
+    "lectures": [
+      {"name": "MATH1852 Calculus", "midtermScore": 85, "finalScore": 82},
+      {"name": "CENG2001 Data Structures and Algorithms", "midtermScore": 88, "finalScore": 80},
+      {"name": "CENG2007 Digital Logic Design", "midtermScore": 84, "finalScore": 87}
+    ]
+  },
+  {
+    "name": "James",
+    "surname": "Clark",
+    "studentID": "075",
+    "lectures": [
+      {"name": "ISG1801 Occupational Health and Safety", "midtermScore": 86, "finalScore": 83},
+      {"name": "CENG3502 Dynamic Web Programming", "midtermScore": 85, "finalScore": 84},
+      {"name": "CENG3005 Database Management Systems", "midtermScore": 82, "finalScore": 88}
+    ]
+  },
+  {
+    "name": "Avery",
+    "surname": "Hernandez",
+    "studentID": "076",
+    "lectures": [
+      {"name": "CENG1004 Introduction to Object Oriented Programming", "midtermScore": 83, "finalScore": 87},
+      {"name": "CENG3545 Mobile Application Development", "midtermScore": 88, "finalScore": 82},
+      {"name": "MATH1852 Calculus", "midtermScore": 84, "finalScore": 86}
+    ]
+  },
+  {
+    "name": "Mia",
+    "surname": "Garcia",
+    "studentID": "077",
+    "lectures": [
+      {"name": "CENG2001 Data Structures and Algorithms", "midtermScore": 85, "finalScore": 84},
+      {"name": "CENG2007 Digital Logic Design", "midtermScore": 87, "finalScore": 83},
+      {"name": "ISG1801 Occupational Health and Safety", "midtermScore": 82, "finalScore": 86}
+    ]
+  },
+  {
+    "name": "Noah",
+    "surname": "Perez",
+    "studentID": "078",
+    "lectures": [
+      {"name": "CENG3502 Dynamic Web Programming", "midtermScore": 88, "finalScore": 80},
+      {"name": "CENG3005 Database Management Systems", "midtermScore": 89, "finalScore": 79},
+      {"name": "CENG1004 Introduction to Object Oriented Programming", "midtermScore": 86, "finalScore": 81}
+    ]
+  },
+  {
+    "name": "Evelyn",
+    "surname": "Martinez",
+    "studentID": "079",
+    "lectures": [
+      {"name": "CENG3545 Mobile Application Development", "midtermScore": 87, "finalScore": 82},
+      {"name": "MATH1852 Calculus", "midtermScore": 88, "finalScore": 81},
+      {"name": "CENG2001 Data Structures and Algorithms", "midtermScore": 86, "finalScore": 83}
+    ]
+  },
+  {
+    "name": "Benjamin",
+    "surname": "Lopez",
+    "studentID": "080",
+    "lectures": [
+      {"name": "CENG2007 Digital Logic Design", "midtermScore": 79, "finalScore": 85},
+      {"name": "ISG1801 Occupational Health and Safety", "midtermScore": 84, "finalScore": 86},
+      {"name": "CENG3502 Dynamic Web Programming", "midtermScore": 81, "finalScore": 74}
+    ]
+  },
+  {
+    "name": "Liam",
+    "surname": "Flores",
+    "studentID": "081",
+    "lectures": [
+      {"name": "CENG3005 Database Management Systems", "midtermScore": 75, "finalScore": 78},
+      {"name": "CENG1004 Introduction to Object Oriented Programming", "midtermScore": 72, "finalScore": 70},
+      {"name": "CENG3545 Mobile Application Development", "midtermScore": 68, "finalScore": 65}
+    ]
+  },
+  {
+    "name": "Olivia",
+    "surname": "Taylor",
+    "studentID": "082",
+    "lectures": [
+      {"name": "MATH1852 Calculus", "midtermScore": 82, "finalScore": 80},
+      {"name": "CENG2001 Data Structures and Algorithms", "midtermScore": 76, "finalScore": 78},
+      {"name": "CENG2007 Digital Logic Design", "midtermScore": 79, "finalScore": 75}
+    ]
+  },
+  {
+    "name": "Jackson",
+    "surname": "Clark",
+    "studentID": "083",
+    "lectures": [
+      {"name": "ISG1801 Occupational Health and Safety", "midtermScore": 65, "finalScore": 68},
+      {"name": "CENG3502 Dynamic Web Programming", "midtermScore": 70, "finalScore": 72},
+      {"name": "CENG3005 Database Management Systems", "midtermScore": 74, "finalScore": 76}
+    ]
+  },
+  {
+    "name": "Sophia",
+    "surname": "Hernandez",
+    "studentID": "084",
+    "lectures": [
+      {"name": "CENG1004 Introduction to Object Oriented Programming", "midtermScore": 75, "finalScore": 78},
+      {"name": "CENG3545 Mobile Application Development", "midtermScore": 72, "finalScore": 70},
+      {"name": "MATH1852 Calculus", "midtermScore": 68, "finalScore": 65}
+    ]
+  },
+  {
+    "name": "Ethan",
+    "surname": "Wilson",
+    "studentID": "085",
+    "lectures": [
+      {"name": "CENG2001 Data Structures and Algorithms", "midtermScore": 82, "finalScore": 80},
+      {"name": "CENG2007 Digital Logic Design", "midtermScore": 76, "finalScore": 78},
+      {"name": "ISG1801 Occupational Health and Safety", "midtermScore": 79, "finalScore": 75}
+    ]
+  },
+  {
+    "name": "Ava",
+    "surname": "Moore",
+    "studentID": "086",
+    "lectures": [
+      {"name": "CENG3502 Dynamic Web Programming", "midtermScore": 65, "finalScore": 68},
+      {"name": "CENG3005 Database Management Systems", "midtermScore": 70, "finalScore": 72},
+      {"name": "CENG1004 Introduction to Object Oriented Programming", "midtermScore": 74, "finalScore": 76}
+    ]
+  },
+  {
+    "name": "Mia",
+    "surname": "Taylor",
+    "studentID": "087",
+    "lectures": [
+      {"name": "CENG3545 Mobile Application Development", "midtermScore": 75, "finalScore": 78},
+      {"name": "MATH1852 Calculus", "midtermScore": 72, "finalScore": 70},
+      {"name": "CENG2001 Data Structures and Algorithms", "midtermScore": 68, "finalScore": 65}
+    ]
+  },
+  {
+    "name": "Noah",
+    "surname": "Clark",
+    "studentID": "088",
+    "lectures": [
+      {"name": "CENG2007 Digital Logic Design", "midtermScore": 82, "finalScore": 80},
+      {"name": "ISG1801 Occupational Health and Safety", "midtermScore": 76, "finalScore": 78},
+      {"name": "CENG3502 Dynamic Web Programming", "midtermScore": 79, "finalScore": 75}
+    ]
+  },
+  {
+    "name": "Elijah",
+    "surname": "Hernandez",
+    "studentID": "089",
+    "lectures": [
+      {"name": "CENG3005 Database Management Systems", "midtermScore": 65, "finalScore": 68},
+      {"name": "CENG1004 Introduction to Object Oriented Programming", "midtermScore": 70, "finalScore": 72},
+      {"name": "CENG3545 Mobile Application Development", "midtermScore": 74, "finalScore": 76}
+    ]
+  },
+  {
+    "name": "Emma",
+    "surname": "Garcia",
+    "studentID": "090",
+    "lectures": [
+      {"name": "MATH1852 Calculus", "midtermScore": 75, "finalScore": 78},
+      {"name": "CENG2001 Data Structures and Algorithms", "midtermScore": 72, "finalScore": 70},
+      {"name": "CENG2007 Digital Logic Design", "midtermScore": 68, "finalScore": 65}
+    ]
+  },
+  {
+    "name": "Carter",
+    "surname": "Perez",
+    "studentID": "091",
+    "lectures": [
+      {"name": "ISG1801 Occupational Health and Safety", "midtermScore": 82, "finalScore": 80},
+      {"name": "CENG3502 Dynamic Web Programming", "midtermScore": 76, "finalScore": 78},
+      {"name": "CENG3005 Database Management Systems", "midtermScore": 79, "finalScore": 75}
+    ]
+  },
+  {
+    "name": "Scarlett",
+    "surname": "Martinez",
+    "studentID": "092",
+    "lectures": [
+      {"name": "CENG1004 Introduction to Object Oriented Programming", "midtermScore": 65, "finalScore": 68},
+      {"name": "CENG3545 Mobile Application Development", "midtermScore": 70, "finalScore": 72},
+      {"name": "MATH1852 Calculus", "midtermScore": 74, "finalScore": 76}
+    ]
+  },
+  {
+    "name": "James",
+    "surname": "Lopez",
+    "studentID": "093",
+    "lectures": [
+      {"name": "CENG2001 Data Structures and Algorithms", "midtermScore": 75, "finalScore": 78},
+      {"name": "CENG2007 Digital Logic Design", "midtermScore": 72, "finalScore": 70},
+      {"name": "ISG1801 Occupational Health and Safety", "midtermScore": 68, "finalScore": 65}
+    ]
+  },
+  {
+    "name": "Avery",
+    "surname": "Flores",
+    "studentID": "094",
+    "lectures": [
+      {"name": "CENG3502 Dynamic Web Programming", "midtermScore": 82, "finalScore": 80},
+      {"name": "CENG3005 Database Management Systems", "midtermScore": 76, "finalScore": 78},
+      {"name": "CENG1004 Introduction to Object Oriented Programming", "midtermScore": 79, "finalScore": 75}
+    ]
+  },
+  {
+    "name": "Mason",
+    "surname": "Taylor",
+    "studentID": "095",
+    "lectures": [
+      {"name": "CENG3545 Mobile Application Development", "midtermScore": 65, "finalScore": 68},
+      {"name": "MATH1852 Calculus", "midtermScore": 70, "finalScore": 72},
+      {"name": "CENG2001 Data Structures and Algorithms", "midtermScore": 74, "finalScore": 76}
+    ]
+  },
+  {
+    "name": "Grace",
+    "surname": "Clark",
+    "studentID": "096",
+    "lectures": [
+      {"name": "CENG2007 Digital Logic Design", "midtermScore": 75, "finalScore": 78},
+      {"name": "ISG1801 Occupational Health and Safety", "midtermScore": 72, "finalScore": 70},
+      {"name": "CENG3502 Dynamic Web Programming", "midtermScore": 68, "finalScore": 65}
+    ]
+  },
+  {
+    "name": "Isaac",
+    "surname": "Hernandez",
+    "studentID": "097",
+    "lectures": [
+      {"name": "CENG3005 Database Management Systems", "midtermScore": 82, "finalScore": 80},
+      {"name": "CENG1004 Introduction to Object Oriented Programming", "midtermScore": 76, "finalScore": 78},
+      {"name": "CENG3545 Mobile Application Development", "midtermScore": 79, "finalScore": 75}
+    ]
+  },
+  {
+    "name": "Aria",
+    "surname": "Garcia",
+    "studentID": "098",
+    "lectures": [
+      {"name": "MATH1852 Calculus", "midtermScore": 65, "finalScore": 68},
+      {"name": "CENG2001 Data Structures and Algorithms", "midtermScore": 70, "finalScore": 72},
+      {"name": "CENG2007 Digital Logic Design", "midtermScore": 74, "finalScore": 76}
+    ]
+  },
+  {
+    "name": "Evelyn",
+    "surname": "Perez",
+    "studentID": "099",
+    "lectures": [
+      {"name": "ISG1801 Occupational Health and Safety", "midtermScore": 72, "finalScore": 78},
+      {"name": "CENG3502 Dynamic Web Programming", "midtermScore": 74, "finalScore": 76},
+      {"name": "CENG3005 Database Management Systems", "midtermScore": 80, "finalScore": 75}
+    ]
+  },
+  {
+    "name": "Benjamin",
+    "surname": "Martinez",
+    "studentID": "100",
+    "lectures": [
+      {"name": "CENG1004 Introduction to Object Oriented Programming", "midtermScore": 70, "finalScore": 68},
+      {"name": "CENG3545 Mobile Application Development", "midtermScore": 78, "finalScore": 74},
+      {"name": "MATH1852 Calculus", "midtermScore": 75, "finalScore": 72}
+    ]
+  }
+]
